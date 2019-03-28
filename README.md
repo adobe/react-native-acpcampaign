@@ -1,7 +1,7 @@
 
-# React Native AEP Analytics Extension
+# React Native AEP Campaign Standard Extension
 
-`react-native-acpanalytics` is a wrapper around the iOS and Android [AEP Analytics SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics) to allow for integration with React Native applications. Functionality to enable Adobe Analytics is provided entirely through JavaScript documented below.
+`react-native-acpcampaign` is a wrapper around the iOS and Android [AEP Campaign SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to allow for integration with React Native applications. Functionality to enable Campaign Standard is provided entirely through JavaScript documented below.
 
 
 ## Installation
@@ -18,73 +18,43 @@ react-native init MyReactApp
 
 ### 2. Install JavaScript packages
 
-Install and link the `react-native-acpanalytics` package:
+Install and link the `react-native-acpcampaign` package:
 
 ```bash
-npm install react-native-acpanalytics
-react-native link react-native-acpanalytics
+npm install react-native-acpcampaign
+react-native link react-native-acpcampaign
 ```
 
 ## Usage
 
-### [Analytics](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core)
+### [Campaign](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)
 
 ##### Importing the extension:
 ```javascript
-import {ACPAnalytics} from 'react-native-acpanalytics';
+import {ACPCampaign} from 'react-native-acpcampaign';
 ```
 
 ##### Getting the extension version:
 
 ```javascript
-ACPAnalytics.extensionVersion().then(version => console.log("AMSDK: ACPAnalytics version: " + version));
+ACPCampaign.extensionVersion().then(version => console.log("AMSDK: ACPCampaign version: " + version));
 ```
 
 ##### Registering the extension with ACPCore:
 
 ```javascript
-ACPAnalytics.registerExtension();
+ACPCampaign.registerExtension();
 ```
 
-##### Get the tracking identifier
+##### Set linkage fields
 
 ```javascript
-ACPAnalytics.getTrackingIdentifier().then(identifier => console.log("AMSDK: Tracking identifier: " + identifier));
+ACPCampaign.setLinkageFields({"linkageKey": "linkageValue"});
 ```
-##### Send queued hits
+##### Reset linkage fields
 
 ```javascript
-ACPAnalytics.sendQueuedHits();
-```
-
-##### Get the queue size
-
-```javascript
-ACPAnalytics.getQueueSize().then(size => console.log("AMSDK: Queue size: " + size));
-```
-
-##### Set the custom visitor identifier
-
-```javascript
-ACPAnalytics.setVisitorIdentifier("yourVisitorId");
-```
-
-##### Get the custom visitor identifier
-
-```javascript
-ACPAnalytics.getVisitorIdentifier().then(vid => console.log("AMSDK: Visitor identifier: " + vid));
-```
-
-##### Track app actions
-
-```javascript
-ACPCore.trackAction("action", {"mytest": "action"});
-```
-
-##### Track app states
-
-```javascript
-ACPCore.trackState("state", {"mytest": "state"});
+ACPCampaign.resetLinkageFields();
 ```
 
 ## License
