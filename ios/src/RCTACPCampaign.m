@@ -35,7 +35,7 @@ RCT_EXPORT_METHOD(registerExtension) {
     [ACPCampaign registerExtension];
 }
 
-RCT_EXPORT_METHOD(setLinkageFields: (nonnull NSDictionary<NSString*, NSString*>*) linkageFields) {
+RCT_EXPORT_METHOD(setLinkageFields: (nonnull NSDictionary*) linkageFields) {
     [ACPCampaign setLinkageFields:linkageFields];
 }
 
