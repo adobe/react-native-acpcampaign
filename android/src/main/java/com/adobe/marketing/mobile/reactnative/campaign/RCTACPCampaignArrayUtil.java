@@ -23,7 +23,7 @@ import com.facebook.react.bridge.WritableArray;
 
 import java.util.Map;
 
-public class RCTACPArrayUtil {
+public class RCTACPCampaignArrayUtil {
 
     public static Object[] toObjectArray(ReadableArray readableArray) {
         Object[] array = new Object[readableArray.size()];
@@ -45,10 +45,10 @@ public class RCTACPArrayUtil {
                     array[i] = readableArray.getString(i);
                     break;
                 case Map:
-                    array[i] = RCTACPMapUtil.toMap(readableArray.getMap(i));
+                    array[i] = RCTACPCampaignMapUtil.toMap(readableArray.getMap(i));
                     break;
                 case Array:
-                    array[i] = RCTACPArrayUtil.toObjectArray(readableArray.getArray(i));
+                    array[i] = RCTACPCampaignArrayUtil.toObjectArray(readableArray.getArray(i));
                     break;
             }
         }
@@ -73,9 +73,9 @@ public class RCTACPArrayUtil {
             } else if (value instanceof String) {
                 writableArr.pushString((String) value);
             } else if (value instanceof Map) {
-                writableArr.pushMap(RCTACPMapUtil.toWritableMap((Map<String, Object>) value));
+                writableArr.pushMap(RCTACPCampaignMapUtil.toWritableMap((Map<String, Object>) value));
             } else if (value.getClass().isArray()) {
-                writableArr.pushArray(RCTACPArrayUtil.toWritableArray((Object[]) value));
+                writableArr.pushArray(RCTACPCampaignArrayUtil.toWritableArray((Object[]) value));
             }
         }
 

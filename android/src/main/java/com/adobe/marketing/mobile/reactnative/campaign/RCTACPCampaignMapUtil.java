@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class RCTACPMapUtil {
+public class RCTACPCampaignMapUtil {
 
     public static Map<String, Object> toMap(ReadableMap readableMap) {
         Map<String, Object> map = new HashMap<>();
@@ -50,10 +50,10 @@ public class RCTACPMapUtil {
                     map.put(key, readableMap.getString(key));
                     break;
                 case Map:
-                    map.put(key, RCTACPMapUtil.toMap(readableMap.getMap(key)));
+                    map.put(key, RCTACPCampaignMapUtil.toMap(readableMap.getMap(key)));
                     break;
                 case Array:
-                    map.put(key, RCTACPArrayUtil.toObjectArray(readableMap.getArray(key)));
+                    map.put(key, RCTACPCampaignArrayUtil.toObjectArray(readableMap.getArray(key)));
                     break;
             }
         }
@@ -101,9 +101,9 @@ public class RCTACPMapUtil {
             } else if (value instanceof String) {
                 writableMap.putString((String) pair.getKey(), (String) value);
             } else if (value instanceof Map) {
-                writableMap.putMap((String) pair.getKey(), RCTACPMapUtil.toWritableMap((Map<String, Object>) value));
+                writableMap.putMap((String) pair.getKey(), RCTACPCampaignMapUtil.toWritableMap((Map<String, Object>) value));
             } else if (value.getClass() != null && value.getClass().isArray()) {
-                writableMap.putArray((String) pair.getKey(), RCTACPArrayUtil.toWritableArray((Object[]) value));
+                writableMap.putArray((String) pair.getKey(), RCTACPCampaignArrayUtil.toWritableArray((Object[]) value));
             }
 
             iterator.remove();

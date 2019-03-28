@@ -5,12 +5,11 @@ import android.util.Log;
 
 import com.adobe.marketing.mobile.Campaign;
 import com.adobe.marketing.mobile.InvalidInitException;
-import com.adobe.marketing.mobile.reactnative.RCTACPMapUtil;
+import com.adobe.marketing.mobile.reactnative.RCTACPCampaignMapUtil;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
-import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReadableMap;
 
 public class RCTACPCampaignModule extends ReactContextBaseJavaModule {
@@ -43,7 +42,7 @@ public class RCTACPCampaignModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void setLinkageFields(final ReadableMap linkageFields) {
-      Campaign.setLinkageFields(RCTACPMapUtil.toStringMap(linkageFields));
+      Campaign.setLinkageFields(RCTACPCampaignMapUtil.toStringMap(linkageFields));
   }
 
   @ReactMethod
