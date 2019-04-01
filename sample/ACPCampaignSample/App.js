@@ -9,8 +9,8 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button, ScrollView, NativeModules} from 'react-native';
-import {ACPCore, ACPLifecycle, ACPSignal, ACPIdentity, ACPMobileLogLevel, ACPMobilePrivacyStatus, ACPMobileVisitorAuthenticationState, ACPVisitorID, ACPExtensionEvent} from 'react-native-acpcore';
-import {ACPCampaign} from 'react-native-acpcampaign';
+import {ACPCore, ACPLifecycle, ACPSignal, ACPIdentity, ACPMobileLogLevel, ACPMobilePrivacyStatus, ACPMobileVisitorAuthenticationState, ACPVisitorID, ACPExtensionEvent} from '@adobe/react-native-acpcore';
+import {ACPCampaign} from '@adobe/react-native-acpcampaign';
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -29,14 +29,6 @@ export default class App extends Component<Props> {
   }
 
   initSDK() {
-    // console.log("AdobeExperienceSDK IMPORT: ACPCore = " + ACPCore);
-    // console.log("AdobeExperienceSDK IMPORT: ACPLifecycle = " + ACPLifecycle);
-    // console.log("AdobeExperienceSDK IMPORT: ACPSignal = " + ACPSignal);
-    // console.log("AdobeExperienceSDK IMPORT: ACPIdentity = " + ACPIdentity);
-    // console.log("AdobeExperienceSDK IMPORT: ACPMobileLogLevel = " + ACPMobileLogLevel);
-    // console.log("AdobeExperienceSDK IMPORT: ACPMobilePrivacyStatus = " + ACPMobilePrivacyStatus);
-    // console.log("AdobeExperienceSDK IMPORT: ACPMobileVisitorAuthenticationState = " + ACPMobileVisitorAuthenticationState);
-    // console.log("AdobeExperienceSDK IMPORT: ACPVisitorID = " + ACPVisitorID);
     ACPCore.setLogLevel(ACPMobileLogLevel.VERBOSE);
     ACPCore.configureWithAppId("launch-ENdd92076b6d40443284824b50647ac784");
     ACPLifecycle.registerExtension();
