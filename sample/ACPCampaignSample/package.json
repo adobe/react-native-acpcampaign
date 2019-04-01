@@ -18,7 +18,7 @@
     "react": "16.6.3",
     "react-native": "0.58.3",
     "@adobe/react-native-acpcore": "git+ssh://git@git.corp.adobe.com:dms-mobile/bourbon-platform-react-native-core.git",
-    "@adobe/react-native-acpcampaign": "git+ssh://git@git.corp.adobe.com:dms-mobile/bourbon-platform-react-native-campaign.git#adobeScope"
+    "@adobe/react-native-acpcampaign": "git+ssh://git@git.corp.adobe.com:dms-mobile/bourbon-platform-react-native-campaign.git"
   },
   "devDependencies": {
     "babel-jest": "16.0.0",
