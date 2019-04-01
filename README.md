@@ -1,12 +1,12 @@
 
 # React Native AEP Campaign Standard Extension
 
-`react-native-acpcampaign` is a wrapper around the iOS and Android [AEP Campaign SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to allow for integration with React Native applications. Functionality to enable Campaign Standard is provided entirely through JavaScript documented below.
+`@adobe/react-native-acpcampaign` is a wrapper around the iOS and Android [AEP Campaign SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to allow for integration with React Native applications. Functionality to enable Campaign Standard is provided entirely through JavaScript documented below.
 
 
 ## Installation
 
-You need to install the SDK with [npm](https://www.npmjs.com/) and configure the native Android/iOS project in your react native project. Before installing the Campaign extension it is recommended to begin by installing the Core extension `react-native-acpcore`.
+You need to install the SDK with [npm](https://www.npmjs.com/) and configure the native Android/iOS project in your react native project. Before installing the Campaign extension it is recommended to begin by installing the Core extension `@adobe/react-native-acpcore`.
 
 ### 1. Create React Native project
 
@@ -18,11 +18,11 @@ react-native init MyReactApp
 
 ### 2. Install JavaScript packages
 
-Install and link the `react-native-acpcampaign` package:
+Install and link the `@adobe/react-native-acpcampaign` package:
 
 ```bash
-npm install react-native-acpcampaign
-react-native link react-native-acpcampaign
+npm install @adobe/react-native-acpcampaign
+react-native link @adobe/react-native-acpcampaign
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ react-native link react-native-acpcampaign
 
 ##### Importing the extension:
 ```javascript
-import {ACPCampaign} from 'react-native-acpcampaign';
+import {ACPCampaign} from '@adobe/react-native-acpcampaign';
 ```
 
 ##### Getting the extension version:
