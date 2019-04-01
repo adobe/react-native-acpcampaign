@@ -37,7 +37,7 @@ import {ACPCampaign} from '@adobe/react-native-acpcampaign';
 ##### Getting the extension version:
 
 ```javascript
-ACPCampaign.extensionVersion().then(version => console.log("AMSDK: ACPCampaign version: " + version));
+ACPCampaign.extensionVersion().then(version => console.log("AdobeExperienceSDK: ACPCampaign version: " + version));
 ```
 
 ##### Registering the extension with ACPCore:
