@@ -5,7 +5,7 @@ import android.util.Log;
 
 import com.adobe.marketing.mobile.Campaign;
 import com.adobe.marketing.mobile.InvalidInitException;
-import com.adobe.marketing.mobile.reactnative.RCTACPCampaignMapUtil;
+import com.adobe.marketing.mobile.reactnative.campaign.RCTACPCampaignMapUtil;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
