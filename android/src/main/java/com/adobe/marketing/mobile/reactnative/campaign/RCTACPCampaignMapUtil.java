@@ -16,7 +16,7 @@
  **************************************************************************/
 package com.adobe.marketing.mobile.reactnative.campaign;
 
-import com.adobe.marketing.mobile.reactnative.RCTACPCampaignArrayUtil;
+import com.adobe.marketing.mobile.reactnative.campaign.RCTACPCampaignArrayUtil;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableMapKeySetIterator;
@@ -112,5 +112,5 @@ public class RCTACPCampaignMapUtil {
 
         return writableMap;
     }
-    
+
 }
