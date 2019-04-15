@@ -36,6 +36,5 @@
   },
   "dependencies": {
     "@adobe/react-native-acpcore": "^1.1.0-alpha.2",
-    "react": "^16.8.6"
   }
 }
