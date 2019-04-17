@@ -33,5 +33,8 @@
     "flow-typed": "^2.3.0",
     "flow-bin": "^0.92.0",
     "react-native": "^0.59.3"
+  },
+  "dependencies": {
+    
   }
 }
