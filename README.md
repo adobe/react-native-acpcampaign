@@ -58,6 +58,8 @@ ACPCampaign.setLinkageFields({"linkageKey": "linkageValue"});
 ACPCampaign.resetLinkageFields();
 ```
 
-## License
+## Contributing
+See [CONTRIBUTING](CONTRIBUTING.md)
 
-See LICENSE.md
+## License
+See [LICENSE](LICENSE)
