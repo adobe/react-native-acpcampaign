@@ -6,7 +6,7 @@ How to run the sample app:
 #### Run instructions for iOS:
 
 ```
-cd /sample/ACPCampaignSample/ && npm install && react-native run-ios
+cd sample/ACPCampaignSample/ && npm install && react-native run-ios
 ```
 or
 
@@ -19,7 +19,7 @@ Hit the Run button
 Have an Android emulator running (quickest way to get started), or a device connected. https://developer.android.com/studio/run/emulator-commandline
 
 ```
-cd /sample/ACPCampaignSample/ && npm install && react-native run-android
+cd sample/ACPCampaignSample/ && npm install && react-native run-android
 ```
 
 ### Troubleshooting
