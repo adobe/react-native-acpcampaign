@@ -1,4 +1,4 @@
-# ACPCoreSample
+# ACPCampaignSample
 
 How to run the sample app:
 
