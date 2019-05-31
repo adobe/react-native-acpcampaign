@@ -10,6 +10,8 @@
 
 You need to install the SDK with [npm](https://www.npmjs.com/) and configure the native Android/iOS project in your react native project. Before installing the Campaign extension it is required to install the Core extension `@adobe/react-native-acpcore`.
 
+> Note: If you are new to React Native we suggest you follow the [React Native Getting Started](<https://facebook.github.io/react-native/docs/getting-started.html>) page before continuing.
+
 
 ### 1. Create React Native project
 
