@@ -31,6 +31,12 @@ npm install @adobe/react-native-acpcampaign
 react-native link @adobe/react-native-acpcampaign
 ```
 
+## Tests
+This project contains jest unit tests, to run the tests locally:
+```
+make run-tests-locally
+```
+
 ## Usage
 
 ### [Campaign](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)
