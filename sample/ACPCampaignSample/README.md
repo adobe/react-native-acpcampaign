@@ -1,7 +1,8 @@
 # ACPCampaignSample
 
-How to run the sample app:
+> Note: Commands are assuming you're in the root directory of the repository.
 
+How to run the sample app:
 
 #### Run instructions for iOS:
 
