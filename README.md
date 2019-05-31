@@ -26,6 +26,7 @@ react-native init MyReactApp
 Install and link the `@adobe/react-native-acpcampaign` package:
 
 ```bash
+cd MyReactApp
 npm install @adobe/react-native-acpcampaign
 react-native link @adobe/react-native-acpcampaign
 ```
