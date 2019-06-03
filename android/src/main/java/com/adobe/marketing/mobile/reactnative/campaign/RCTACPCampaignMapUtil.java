@@ -25,6 +25,10 @@ import java.util.Map;
 public class RCTACPCampaignMapUtil {
 
     public static Map<String, Object> toMap(ReadableMap readableMap) {
+        if (readableMap == null) {
+            return null;
+        }
+
         Map<String, Object> map = new HashMap<>();
         ReadableMapKeySetIterator iterator = readableMap.keySetIterator();
 
@@ -58,6 +62,10 @@ public class RCTACPCampaignMapUtil {
     }
 
     public static Map<String, String> toStringMap(ReadableMap readableMap) {
+        if (readableMap == null) {
+            return null;
+        }
+
         Map<String, String> map = new HashMap<>();
         ReadableMapKeySetIterator iterator = readableMap.keySetIterator();
 
@@ -79,6 +87,10 @@ public class RCTACPCampaignMapUtil {
     }
 
     public static WritableMap toWritableMap(Map<String, Object> map) {
+        if (map == null) {
+            return null;
+        }
+        
         WritableMap writableMap = Arguments.createMap();
         Iterator iterator = map.entrySet().iterator();
 
