@@ -12,8 +12,8 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* ACPCoreSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ACPCoreSampleTests.m */; };
-		0D7FAFCB8809478C8C6BBAA0 /* libRCTACPCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D11021AD5B0A41869D5D250E /* libRCTACPCore.a */; };
+		00E356F31AD99517003FC87E /* ACPCampaignSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ACPCampaignSampleTests.m */; };
+		0875A3A342AD4F62AF79BD40 /* libRCTACPCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBC071720A64CCFBCA92E3D /* libRCTACPCore.a */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -24,14 +24,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		21D872472209FD6D00285A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D872462209FD6C00285A6B /* UIKit.framework */; };
-		21D872492209FD7500285A6B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D872482209FD7500285A6B /* SystemConfiguration.framework */; };
-		21D8724B2209FD7A00285A6B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D8724A2209FD7A00285A6B /* WebKit.framework */; };
-		21D8724D2209FD7E00285A6B /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D8724C2209FD7E00285A6B /* UserNotifications.framework */; };
-		21D8724F2209FD8400285A6B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D8724E2209FD8400285A6B /* libsqlite3.0.tbd */; };
-		21D872512209FD8900285A6B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D872502209FD8900285A6B /* libc++.tbd */; };
-		21D872532209FD9100285A6B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D872522209FD9100285A6B /* libz.tbd */; };
-		26FD696FD67B43518F2493CD /* libRCTACPCampaign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFECE2E27CE4DC6AD80223E /* libRCTACPCampaign.a */; };
+		21346E4A22A6CD7D00824A8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21346E1C22A6CD7D00824A8E /* UIKit.framework */; };
+		21346E4C22A6CD8200824A8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21346E4B22A6CD8200824A8E /* SystemConfiguration.framework */; };
+		21346E4E22A6CD8600824A8E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21346E4D22A6CD8600824A8E /* WebKit.framework */; };
+		21346E5022A6CD8A00824A8E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21346E4F22A6CD8A00824A8E /* UserNotifications.framework */; };
+		21346E5222A6CD8F00824A8E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21346E5122A6CD8F00824A8E /* libsqlite3.0.tbd */; };
+		21346E5422A6CD9400824A8E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21346E5322A6CD9400824A8E /* libc++.tbd */; };
+		21346E5622A6CD9800824A8E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21346E5522A6CD9800824A8E /* libz.tbd */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -43,10 +42,11 @@
 		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2DCD954D1E0B4F2C00145EB5 /* ACPCoreSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ACPCoreSampleTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* ACPCampaignSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ACPCampaignSampleTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		CBC35F368DAB4BBC9FD6B24F /* libRCTACPCampaign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CAA8A8974647C387986172 /* libRCTACPCampaign.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
@@ -92,7 +92,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ACPCoreSample;
+			remoteInfo = ACPCampaignSample;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -115,54 +115,54 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
-		21232A022252CC500062924E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 763E6FB6C9244115A36FA63C /* RCTACPCampaign.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RCTACPCampaign;
-		};
-		21232A072252CC500062924E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 56C59E838F1A4331AE497781 /* RCTACPCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RCTACPCore;
-		};
-		21D8723E2209FD4900285A6B /* PBXContainerItemProxy */ = {
+		21346E4222A6CD7D00824A8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
 			remoteInfo = jsi;
 		};
-		21D872402209FD4900285A6B /* PBXContainerItemProxy */ = {
+		21346E4422A6CD7D00824A8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
 			remoteInfo = jsiexecutor;
 		};
-		21D872422209FD4900285A6B /* PBXContainerItemProxy */ = {
+		21346E4622A6CD7D00824A8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
 			remoteInfo = "jsi-tvOS";
 		};
-		21D872442209FD4900285A6B /* PBXContainerItemProxy */ = {
+		21346E4822A6CD7D00824A8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
 			remoteInfo = "jsiexecutor-tvOS";
 		};
+		21346E8E22A6CDF700824A8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE96FC5E72140C9A674BA51 /* RCTACPCampaign.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTACPCampaign;
+		};
+		21346E9122A6CDF700824A8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2626E4457A430DAF310BEE /* RCTACPCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTACPCore;
+		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ACPCoreSample-tvOS";
+			remoteInfo = "ACPCampaignSample-tvOS";
 		};
 		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -348,37 +348,37 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ACPCoreSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACPCoreSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ACPCampaignSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACPCampaignSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ACPCoreSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACPCoreSampleTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ACPCampaignSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACPCampaignSampleTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ACPCoreSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACPCoreSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ACPCoreSample/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ACPCoreSample/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ACPCampaignSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACPCampaignSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ACPCampaignSample/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ACPCampaignSample/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ACPCoreSample/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ACPCoreSample/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ACPCoreSample/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ACPCampaignSample/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ACPCampaignSample/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ACPCampaignSample/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		21D872462209FD6C00285A6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		21D872482209FD7500285A6B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		21D8724A2209FD7A00285A6B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		21D8724C2209FD7E00285A6B /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		21D8724E2209FD8400285A6B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		21D872502209FD8900285A6B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		21D872522209FD9100285A6B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		2D02E47B1E0B4A5D006451C7 /* ACPCoreSample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACPCoreSample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ACPCoreSample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACPCoreSample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21346E1C22A6CD7D00824A8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21346E4B22A6CD8200824A8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		21346E4D22A6CD8600824A8E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		21346E4F22A6CD8A00824A8E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		21346E5122A6CD8F00824A8E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		21346E5322A6CD9400824A8E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		21346E5522A6CD9800824A8E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2D02E47B1E0B4A5D006451C7 /* ACPCampaignSample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACPCampaignSample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ACPCampaignSample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACPCampaignSample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		56C59E838F1A4331AE497781 /* RCTACPCore.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTACPCore.xcodeproj; path = "../node_modules/@adobe/react-native-acpcore/ios/RCTACPCore.xcodeproj"; sourceTree = "<group>"; };
+		4FBC071720A64CCFBCA92E3D /* libRCTACPCore.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTACPCore.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		763E6FB6C9244115A36FA63C /* RCTACPCampaign.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTACPCampaign.xcodeproj; path = "../node_modules/@adobe/react-native-acpcampaign/ios/RCTACPCampaign.xcodeproj"; sourceTree = "<group>"; };
+		71CAA8A8974647C387986172 /* libRCTACPCampaign.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTACPCampaign.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		9EFECE2E27CE4DC6AD80223E /* libRCTACPCampaign.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTACPCampaign.a; sourceTree = "<group>"; };
+		AB2626E4457A430DAF310BEE /* RCTACPCore.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTACPCore.xcodeproj; path = "../node_modules/@adobe/react-native-acpcore/ios/RCTACPCore.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		D11021AD5B0A41869D5D250E /* libRCTACPCore.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTACPCore.a; sourceTree = "<group>"; };
+		DBE96FC5E72140C9A674BA51 /* RCTACPCampaign.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTACPCampaign.xcodeproj; path = "../node_modules/@adobe/react-native-acpcampaign/ios/RCTACPCampaign.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -396,13 +396,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D872532209FD9100285A6B /* libz.tbd in Frameworks */,
-				21D872512209FD8900285A6B /* libc++.tbd in Frameworks */,
-				21D8724F2209FD8400285A6B /* libsqlite3.0.tbd in Frameworks */,
-				21D8724D2209FD7E00285A6B /* UserNotifications.framework in Frameworks */,
-				21D8724B2209FD7A00285A6B /* WebKit.framework in Frameworks */,
-				21D872492209FD7500285A6B /* SystemConfiguration.framework in Frameworks */,
-				21D872472209FD6D00285A6B /* UIKit.framework in Frameworks */,
+				21346E5622A6CD9800824A8E /* libz.tbd in Frameworks */,
+				21346E5422A6CD9400824A8E /* libc++.tbd in Frameworks */,
+				21346E5222A6CD8F00824A8E /* libsqlite3.0.tbd in Frameworks */,
+				21346E5022A6CD8A00824A8E /* UserNotifications.framework in Frameworks */,
+				21346E4E22A6CD8600824A8E /* WebKit.framework in Frameworks */,
+				21346E4C22A6CD8200824A8E /* SystemConfiguration.framework in Frameworks */,
+				21346E4A22A6CD7D00824A8E /* UIKit.framework in Frameworks */,
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
@@ -416,8 +416,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				0D7FAFCB8809478C8C6BBAA0 /* libRCTACPCore.a in Frameworks */,
-				26FD696FD67B43518F2493CD /* libRCTACPCampaign.a in Frameworks */,
+				CBC35F368DAB4BBC9FD6B24F /* libRCTACPCampaign.a in Frameworks */,
+				0875A3A342AD4F62AF79BD40 /* libRCTACPCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,13 +490,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* ACPCoreSampleTests */ = {
+		00E356EF1AD99517003FC87E /* ACPCampaignSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ACPCoreSampleTests.m */,
+				00E356F21AD99517003FC87E /* ACPCampaignSampleTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ACPCoreSampleTests;
+			path = ACPCampaignSampleTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -527,7 +527,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ACPCoreSample */ = {
+		13B07FAE1A68108700A75B9A /* ACPCampaignSample */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -538,7 +538,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ACPCoreSample;
+			name = ACPCampaignSample;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -556,49 +556,49 @@
 				2DF0FFE52056DD460020B375 /* libthird-party.a */,
 				2DF0FFE72056DD460020B375 /* libdouble-conversion.a */,
 				2DF0FFE92056DD460020B375 /* libdouble-conversion.a */,
-				21D8723F2209FD4900285A6B /* libjsi.a */,
-				21D872412209FD4900285A6B /* libjsiexecutor.a */,
-				21D872432209FD4900285A6B /* libjsi-tvOS.a */,
-				21D872452209FD4900285A6B /* libjsiexecutor-tvOS.a */,
+				21346E4322A6CD7D00824A8E /* libjsi.a */,
+				21346E4522A6CD7D00824A8E /* libjsiexecutor.a */,
+				21346E4722A6CD7D00824A8E /* libjsi-tvOS.a */,
+				21346E4922A6CD7D00824A8E /* libjsiexecutor-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		212329FF2252CC500062924E /* Products */ = {
+		21346E6322A6CDF700824A8E /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				21232A032252CC500062924E /* libRCTACPCampaign.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		21232A042252CC500062924E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				21232A082252CC500062924E /* libRCTACPCore.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		21D872182209FD4800285A6B /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				D11021AD5B0A41869D5D250E /* libRCTACPCore.a */,
-				9EFECE2E27CE4DC6AD80223E /* libRCTACPCampaign.a */,
+				71CAA8A8974647C387986172 /* libRCTACPCampaign.a */,
+				4FBC071720A64CCFBCA92E3D /* libRCTACPCore.a */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		21346E8922A6CDF700824A8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21346E8F22A6CDF700824A8E /* libRCTACPCampaign.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21346E8B22A6CDF700824A8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21346E9222A6CDF700824A8E /* libRCTACPCore.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21D872522209FD9100285A6B /* libz.tbd */,
-				21D872502209FD8900285A6B /* libc++.tbd */,
-				21D8724E2209FD8400285A6B /* libsqlite3.0.tbd */,
-				21D8724C2209FD7E00285A6B /* UserNotifications.framework */,
-				21D8724A2209FD7A00285A6B /* WebKit.framework */,
-				21D872482209FD7500285A6B /* SystemConfiguration.framework */,
-				21D872462209FD6C00285A6B /* UIKit.framework */,
+				21346E5522A6CD9800824A8E /* libz.tbd */,
+				21346E5322A6CD9400824A8E /* libc++.tbd */,
+				21346E5122A6CD8F00824A8E /* libsqlite3.0.tbd */,
+				21346E4F22A6CD8A00824A8E /* UserNotifications.framework */,
+				21346E4D22A6CD8600824A8E /* WebKit.framework */,
+				21346E4B22A6CD8200824A8E /* SystemConfiguration.framework */,
+				21346E1C22A6CD7D00824A8E /* UIKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
@@ -639,8 +639,8 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				56C59E838F1A4331AE497781 /* RCTACPCore.xcodeproj */,
-				763E6FB6C9244115A36FA63C /* RCTACPCampaign.xcodeproj */,
+				DBE96FC5E72140C9A674BA51 /* RCTACPCampaign.xcodeproj */,
+				AB2626E4457A430DAF310BEE /* RCTACPCore.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -657,12 +657,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ACPCoreSample */,
+				13B07FAE1A68108700A75B9A /* ACPCampaignSample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ACPCoreSampleTests */,
+				00E356EF1AD99517003FC87E /* ACPCampaignSampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				21D872182209FD4800285A6B /* Recovered References */,
+				21346E6322A6CDF700824A8E /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -672,10 +672,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ACPCoreSample.app */,
-				00E356EE1AD99517003FC87E /* ACPCoreSampleTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ACPCoreSample-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ACPCoreSample-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ACPCampaignSample.app */,
+				00E356EE1AD99517003FC87E /* ACPCampaignSampleTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* ACPCampaignSample-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ACPCampaignSample-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -692,9 +692,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ACPCoreSampleTests */ = {
+		00E356ED1AD99517003FC87E /* ACPCampaignSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ACPCoreSampleTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ACPCampaignSampleTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -705,14 +705,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ACPCoreSampleTests;
-			productName = ACPCoreSampleTests;
-			productReference = 00E356EE1AD99517003FC87E /* ACPCoreSampleTests.xctest */;
+			name = ACPCampaignSampleTests;
+			productName = ACPCampaignSampleTests;
+			productReference = 00E356EE1AD99517003FC87E /* ACPCampaignSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ACPCoreSample */ = {
+		13B07F861A680F5B00A75B9A /* ACPCampaignSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ACPCoreSample" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ACPCampaignSample" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -723,14 +723,14 @@
 			);
 			dependencies = (
 			);
-			name = ACPCoreSample;
+			name = ACPCampaignSample;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* ACPCoreSample.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* ACPCampaignSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ACPCoreSample-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* ACPCampaignSample-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ACPCoreSample-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ACPCampaignSample-tvOS" */;
 			buildPhases = (
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -741,14 +741,14 @@
 			);
 			dependencies = (
 			);
-			name = "ACPCoreSample-tvOS";
-			productName = "ACPCoreSample-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ACPCoreSample-tvOS.app */;
+			name = "ACPCampaignSample-tvOS";
+			productName = "ACPCampaignSample-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ACPCampaignSample-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ACPCoreSample-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* ACPCampaignSample-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ACPCoreSample-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ACPCampaignSample-tvOSTests" */;
 			buildPhases = (
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
@@ -759,9 +759,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ACPCoreSample-tvOSTests";
-			productName = "ACPCoreSample-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ACPCoreSample-tvOSTests.xctest */;
+			name = "ACPCampaignSample-tvOSTests";
+			productName = "ACPCampaignSample-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ACPCampaignSample-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -788,11 +788,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ACPCoreSample" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ACPCampaignSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -801,12 +802,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 212329FF2252CC500062924E /* Products */;
-					ProjectRef = 763E6FB6C9244115A36FA63C /* RCTACPCampaign.xcodeproj */;
+					ProductGroup = 21346E8922A6CDF700824A8E /* Products */;
+					ProjectRef = DBE96FC5E72140C9A674BA51 /* RCTACPCampaign.xcodeproj */;
 				},
 				{
-					ProductGroup = 21232A042252CC500062924E /* Products */;
-					ProjectRef = 56C59E838F1A4331AE497781 /* RCTACPCore.xcodeproj */;
+					ProductGroup = 21346E8B22A6CDF700824A8E /* Products */;
+					ProjectRef = AB2626E4457A430DAF310BEE /* RCTACPCore.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -859,10 +860,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ACPCoreSample */,
-				00E356ED1AD99517003FC87E /* ACPCoreSampleTests */,
-				2D02E47A1E0B4A5D006451C7 /* ACPCoreSample-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ACPCoreSample-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* ACPCampaignSample */,
+				00E356ED1AD99517003FC87E /* ACPCampaignSampleTests */,
+				2D02E47A1E0B4A5D006451C7 /* ACPCampaignSample-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ACPCampaignSample-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -924,46 +925,46 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		21232A032252CC500062924E /* libRCTACPCampaign.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTACPCampaign.a;
-			remoteRef = 21232A022252CC500062924E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		21232A082252CC500062924E /* libRCTACPCore.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTACPCore.a;
-			remoteRef = 21232A072252CC500062924E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		21D8723F2209FD4900285A6B /* libjsi.a */ = {
+		21346E4322A6CD7D00824A8E /* libjsi.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libjsi.a;
-			remoteRef = 21D8723E2209FD4900285A6B /* PBXContainerItemProxy */;
+			remoteRef = 21346E4222A6CD7D00824A8E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		21D872412209FD4900285A6B /* libjsiexecutor.a */ = {
+		21346E4522A6CD7D00824A8E /* libjsiexecutor.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libjsiexecutor.a;
-			remoteRef = 21D872402209FD4900285A6B /* PBXContainerItemProxy */;
+			remoteRef = 21346E4422A6CD7D00824A8E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		21D872432209FD4900285A6B /* libjsi-tvOS.a */ = {
+		21346E4722A6CD7D00824A8E /* libjsi-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libjsi-tvOS.a";
-			remoteRef = 21D872422209FD4900285A6B /* PBXContainerItemProxy */;
+			remoteRef = 21346E4622A6CD7D00824A8E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		21D872452209FD4900285A6B /* libjsiexecutor-tvOS.a */ = {
+		21346E4922A6CD7D00824A8E /* libjsiexecutor-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libjsiexecutor-tvOS.a";
-			remoteRef = 21D872442209FD4900285A6B /* PBXContainerItemProxy */;
+			remoteRef = 21346E4822A6CD7D00824A8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21346E8F22A6CDF700824A8E /* libRCTACPCampaign.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTACPCampaign.a;
+			remoteRef = 21346E8E22A6CDF700824A8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21346E9222A6CDF700824A8E /* libRCTACPCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTACPCore.a;
+			remoteRef = 21346E9122A6CDF700824A8E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */ = {
@@ -1213,7 +1214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ACPCoreSampleTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ACPCampaignSampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1239,7 +1240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ACPCoreSampleTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ACPCampaignSampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1248,12 +1249,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ACPCoreSample */;
+			target = 13B07F861A680F5B00A75B9A /* ACPCampaignSample */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ACPCoreSample-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* ACPCampaignSample-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1265,7 +1266,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ACPCoreSample;
+			path = ACPCampaignSample;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1281,10 +1282,10 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcampaign/ios/src/**",
+					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 				);
-				INFOPLIST_FILE = ACPCoreSampleTests/Info.plist;
+				INFOPLIST_FILE = ACPCampaignSampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1298,7 +1299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPCoreSample.app/ACPCoreSample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPCampaignSample.app/ACPCampaignSample";
 			};
 			name = Debug;
 		};
@@ -1309,10 +1310,10 @@
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcampaign/ios/src/**",
+					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 				);
-				INFOPLIST_FILE = ACPCoreSampleTests/Info.plist;
+				INFOPLIST_FILE = ACPCampaignSampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1326,7 +1327,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPCoreSample.app/ACPCoreSample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPCampaignSample.app/ACPCampaignSample";
 			};
 			name = Release;
 		};
@@ -1338,11 +1339,10 @@
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcampaign/ios/src/**",
+					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 				);
-				INFOPLIST_FILE = ACPCoreSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = ACPCampaignSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1350,7 +1350,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ACPCoreSample;
+				PRODUCT_NAME = ACPCampaignSample;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1362,11 +1362,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcampaign/ios/src/**",
+					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 				);
-				INFOPLIST_FILE = ACPCoreSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = ACPCampaignSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1374,7 +1373,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ACPCoreSample;
+				PRODUCT_NAME = ACPCampaignSample;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1393,10 +1392,10 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcampaign/ios/src/**",
+					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 				);
-				INFOPLIST_FILE = "ACPCoreSample-tvOS/Info.plist";
+				INFOPLIST_FILE = "ACPCampaignSample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1407,7 +1406,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ACPCoreSample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ACPCampaignSample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1429,10 +1428,10 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcampaign/ios/src/**",
+					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 				);
-				INFOPLIST_FILE = "ACPCoreSample-tvOS/Info.plist";
+				INFOPLIST_FILE = "ACPCampaignSample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1443,7 +1442,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ACPCoreSample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ACPCampaignSample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1464,10 +1463,10 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcampaign/ios/src/**",
+					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 				);
-				INFOPLIST_FILE = "ACPCoreSample-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ACPCampaignSample-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1478,10 +1477,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ACPCoreSample-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ACPCampaignSample-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPCoreSample-tvOS.app/ACPCoreSample-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPCampaignSample-tvOS.app/ACPCampaignSample-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
@@ -1499,10 +1498,10 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcampaign/ios/src/**",
+					"$(SRCROOT)/../node_modules/@adobe/react-native-acpcore/ios/src/**",
 				);
-				INFOPLIST_FILE = "ACPCoreSample-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ACPCampaignSample-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1513,10 +1512,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ACPCoreSample-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ACPCampaignSample-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPCoreSample-tvOS.app/ACPCoreSample-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPCampaignSample-tvOS.app/ACPCampaignSample-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1567,7 +1566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1613,7 +1612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1623,7 +1622,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ACPCoreSampleTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ACPCampaignSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1632,7 +1631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ACPCoreSample" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ACPCampaignSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1641,7 +1640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ACPCoreSample-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ACPCampaignSample-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1650,7 +1649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ACPCoreSample-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ACPCampaignSample-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1659,7 +1658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ACPCoreSample" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ACPCampaignSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

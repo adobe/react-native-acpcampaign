@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ACPCoreSample-tvOS.app"
-               BlueprintName = "ACPCoreSample-tvOS"
-               ReferencedContainer = "container:ACPCoreSample.xcodeproj">
+               BuildableName = "ACPCampaignSample-tvOS.app"
+               BlueprintName = "ACPCampaignSample-tvOS"
+               ReferencedContainer = "container:ACPCampaignSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ACPCoreSample-tvOSTests.xctest"
-               BlueprintName = "ACPCoreSample-tvOSTests"
-               ReferencedContainer = "container:ACPCoreSample.xcodeproj">
+               BuildableName = "ACPCampaignSample-tvOSTests.xctest"
+               BlueprintName = "ACPCampaignSample-tvOSTests"
+               ReferencedContainer = "container:ACPCampaignSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ACPCoreSample-tvOSTests.xctest"
-               BlueprintName = "ACPCoreSample-tvOSTests"
-               ReferencedContainer = "container:ACPCoreSample.xcodeproj">
+               BuildableName = "ACPCampaignSample-tvOSTests.xctest"
+               BlueprintName = "ACPCampaignSample-tvOSTests"
+               ReferencedContainer = "container:ACPCampaignSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ACPCoreSample-tvOS.app"
-            BlueprintName = "ACPCoreSample-tvOS"
-            ReferencedContainer = "container:ACPCoreSample.xcodeproj">
+            BuildableName = "ACPCampaignSample-tvOS.app"
+            BlueprintName = "ACPCampaignSample-tvOS"
+            ReferencedContainer = "container:ACPCampaignSample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ACPCoreSample-tvOS.app"
-            BlueprintName = "ACPCoreSample-tvOS"
-            ReferencedContainer = "container:ACPCoreSample.xcodeproj">
+            BuildableName = "ACPCampaignSample-tvOS.app"
+            BlueprintName = "ACPCampaignSample-tvOS"
+            ReferencedContainer = "container:ACPCampaignSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ACPCoreSample-tvOS.app"
-            BlueprintName = "ACPCoreSample-tvOS"
-            ReferencedContainer = "container:ACPCoreSample.xcodeproj">
+            BuildableName = "ACPCampaignSample-tvOS.app"
+            BlueprintName = "ACPCampaignSample-tvOS"
+            ReferencedContainer = "container:ACPCampaignSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
