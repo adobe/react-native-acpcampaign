@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		21093C59224D5DA5008C3A2B /* libACPCampaign_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21093C58224D5DA5008C3A2B /* libACPCampaign_iOS.a */; };
-		21EF6B092272124B0088E1D6 /* ACPCampaign.h in Headers */ = {isa = PBXBuildFile; fileRef = 21093C57224D5DA5008C3A2B /* ACPCampaign.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21EF6B0A227212520088E1D6 /* ACPCampaign.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21093C57224D5DA5008C3A2B /* ACPCampaign.h */; };
 		B3E7B58A1CC2AC0600A0062D /* RCTACPCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */; };
 /* End PBXBuildFile section */
@@ -83,23 +82,11 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		21EF6B08227212480088E1D6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21EF6B092272124B0088E1D6 /* ACPCampaign.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		58B511DA1A9E6C8500147676 /* RCTACPCampaign */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTACPCampaign" */;
 			buildPhases = (
-				21EF6B08227212480088E1D6 /* Headers */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -132,6 +119,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
