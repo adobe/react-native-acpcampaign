@@ -31,10 +31,8 @@ export default class App extends Component<Props> {
     }
 
     initSDK() {
-        //console.debug("aaron! init sdk");
         ACPCore.setLogLevel(ACPMobileLogLevel.DEBUG);
-        //Aaron's launch property ID
-        ACPCore.configureWithAppId("staging/launch-EN1f3992178fb84319928163087a278918-development");
+        ACPCore.configureWithAppId("yourAppId");
         ACPLifecycle.registerExtension();
         ACPIdentity.registerExtension();
         ACPSignal.registerExtension();
@@ -53,9 +51,9 @@ export default class App extends Component<Props> {
 
     collectPII() {
         ACPCore.collectPii({
-            "cusFirstName" : "Aaron",
-            "cusLastName": "Motayne",
-            "cusEmail" : "aaron@adobe.com"
+            "cusFirstName" : "First",
+            "cusLastName": "Last",
+            "cusEmail" : "name@email.com"
         });
         this.setState({collectPIICalled: 'true'})
     }
@@ -63,9 +61,9 @@ export default class App extends Component<Props> {
 
     setLinkageFields() {
         ACPCampaign.setLinkageFields({
-            "cusFirstName" : "Aaron",
-            "cusLastName": "Motayne",
-            "cusEmail" : "aaron@adobe.com"}
+            "cusFirstName" : "First",
+            "cusLastName": "Last",
+            "cusEmail" : "name@email.com"}
         );
     }
 
