@@ -28,7 +28,26 @@ Install and link the `@adobe/react-native-acpcampaign` package:
 ```bash
 cd MyReactApp
 npm install @adobe/react-native-acpcampaign
-react-native link @adobe/react-native-acpcampaign
+```
+
+#### 2.1 Link
+- **React Native 0.60+**
+
+
+[CLI autolink feature](https://github.com/react-native-community/cli/blob/master/docs/autolinking.md) links the module while building the app.
+
+
+- **React Native <= 0.59**
+
+
+```bash
+$ react-native link react-native-acpcampaign
+```
+
+*Note* For `iOS` using `cocoapods`, run:
+
+```bash
+$ cd ios/ && pod install
 ```
 
 ## Tests
