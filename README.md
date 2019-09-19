@@ -77,12 +77,12 @@ ACPCampaign.extensionVersion().then(version => console.log("AdobeExperienceSDK: 
 ACPCampaign.registerExtension();
 ```
 
-##### Set linkage fields
+##### Set linkage fields:
 
 ```javascript
 ACPCampaign.setLinkageFields({"linkageKey": "linkageValue"});
 ```
-##### Reset linkage fields
+##### Reset linkage fields:
 
 ```javascript
 ACPCampaign.resetLinkageFields();
