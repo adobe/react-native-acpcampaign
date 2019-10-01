@@ -41,7 +41,7 @@ npm install @adobe/react-native-acpcampaign
 
 
 ```bash
-$ react-native link react-native-acpcampaign
+$ react-native link @adobe/react-native-acpcampaign
 ```
 
 *Note* For `iOS` using `cocoapods`, run:
