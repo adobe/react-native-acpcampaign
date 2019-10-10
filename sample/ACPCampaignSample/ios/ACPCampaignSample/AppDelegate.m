@@ -18,7 +18,7 @@ governing permissions and limitations under the License.
 #import <RCTACPCore/ACPLifecycle.h>
 #import <RCTACPCore/ACPIdentity.h>
 #import <RCTACPCore/ACPSignal.h>
-#import <RCTACPAnalytics/ACPCampaign.h>
+#import <RCTACPCampaign/ACPCampaign.h>
 
 @implementation AppDelegate
 
