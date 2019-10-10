@@ -15,7 +15,7 @@ governing permissions and limitations under the License.
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button, ScrollView, NativeModules} from 'react-native';
-import {ACPCore, ACPLifecycle, ACPSignal, ACPIdentity, ACPMobileLogLevel, ACPMobilePrivacyStatus, ACPMobileVisitorAuthenticationState, ACPVisitorID, ACPExtensionEvent} from '@adobe/react-native-acpcore';
+import {ACPCore} from '@adobe/react-native-acpcore';
 import {ACPCampaign} from '@adobe/react-native-acpcampaign';
 
 type Props = {};
@@ -28,16 +28,6 @@ export default class App extends Component<Props> {
             campaignVersion: 'unknown',
             collectPIICalled: 'false'
       }
-    }
-
-    initSDK() {
-        ACPCore.setLogLevel(ACPMobileLogLevel.DEBUG);
-        ACPCore.configureWithAppId("yourAppId");
-        ACPLifecycle.registerExtension();
-        ACPIdentity.registerExtension();
-        ACPSignal.registerExtension();
-        ACPCampaign.registerExtension();
-        ACPCore.start();
     }
 
     extensionVersion() {
@@ -80,22 +70,18 @@ export default class App extends Component<Props> {
     }
 
     testCampaignPersonalizedMessage() {
-
         ACPCore.trackAction("aaronPM", new Map());
     }
 
     testOPTIn() {
-
         ACPCore.setPrivacyStatus(ACPMobilePrivacyStatus.OPT_IN);
     }
 
     testOPTOut() {
-
         ACPCore.setPrivacyStatus(ACPMobilePrivacyStatus.OPT_OUT);
     }
 
     render() {
-        this.initSDK();
         return (
             <View style={styles.container}>
                 <ScrollView contentContainerStyle={{ marginTop: 75 }}>
