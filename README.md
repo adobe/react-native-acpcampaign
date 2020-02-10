@@ -89,7 +89,10 @@ import com.adobe.marketing.mobile.Campaign;
 Campaign.registerExtension();
 ```
 
+##### **Javascript:**
 ```javascript
+import {ACPCampaign} from '@adobe/react-native-acpcampaign';
+
 ACPCampaign.registerExtension();
 ```
 
