@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21B6293225902DD60039CE4D /* ACPCampaign.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B6293125902DD60039CE4D /* ACPCampaign.xcframework */; };
+		21B6293225902DD60039CE4D /* ACPCampaign.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B6293125902DD60039CE4D /* ACPCampaign.xcframework */; platformFilter = ios; };
 		21B6293525902DE30039CE4D /* ACPCampaign.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21B6293425902DDE0039CE4D /* ACPCampaign.h */; platformFilter = ios; };
 		B3E7B58A1CC2AC0600A0062D /* RCTACPCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */; platformFilter = ios; };
 /* End PBXBuildFile section */
