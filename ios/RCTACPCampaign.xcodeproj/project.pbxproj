@@ -233,6 +233,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RCTACPCampaign;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Debug;
 		};
@@ -252,6 +253,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RCTACPCampaign;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Release;
 		};
