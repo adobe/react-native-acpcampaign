@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21093C59224D5DA5008C3A2B /* libACPCampaign_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21093C58224D5DA5008C3A2B /* libACPCampaign_iOS.a */; };
-		21EF6B0A227212520088E1D6 /* ACPCampaign.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21093C57224D5DA5008C3A2B /* ACPCampaign.h */; };
-		B3E7B58A1CC2AC0600A0062D /* RCTACPCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */; };
+		21B6293225902DD60039CE4D /* ACPCampaign.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B6293125902DD60039CE4D /* ACPCampaign.xcframework */; platformFilter = ios; };
+		21B6293525902DE30039CE4D /* ACPCampaign.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21B6293425902DDE0039CE4D /* ACPCampaign.h */; platformFilter = ios; };
+		B3E7B58A1CC2AC0600A0062D /* RCTACPCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +19,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				21EF6B0A227212520088E1D6 /* ACPCampaign.h in CopyFiles */,
+				21B6293525902DE30039CE4D /* ACPCampaign.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -27,8 +27,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRCTACPCampaign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTACPCampaign.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21093C57224D5DA5008C3A2B /* ACPCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPCampaign.h; sourceTree = "<group>"; };
-		21093C58224D5DA5008C3A2B /* libACPCampaign_iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACPCampaign_iOS.a; sourceTree = "<group>"; };
+		21B6293125902DD60039CE4D /* ACPCampaign.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPCampaign.xcframework; sourceTree = "<group>"; };
+		21B6293425902DDE0039CE4D /* ACPCampaign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ACPCampaign.h; path = "ACPCampaign.xcframework/ios-arm64_armv7_armv7s/Headers/ACPCampaign.h"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RCTACPCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTACPCampaign.h; path = src/RCTACPCampaign.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTACPCampaign.m; path = src/RCTACPCampaign.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21093C59224D5DA5008C3A2B /* libACPCampaign_iOS.a in Frameworks */,
+				21B6293225902DD60039CE4D /* ACPCampaign.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +56,10 @@
 		21093C55224D5D83008C3A2B /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				21093C56224D5DA5008C3A2B /* include */,
-				21093C58224D5DA5008C3A2B /* libACPCampaign_iOS.a */,
+				21B6293425902DDE0039CE4D /* ACPCampaign.h */,
+				21B6293125902DD60039CE4D /* ACPCampaign.xcframework */,
 			);
 			path = libs;
-			sourceTree = "<group>";
-		};
-		21093C56224D5DA5008C3A2B /* include */ = {
-			isa = PBXGroup;
-			children = (
-				21093C57224D5DA5008C3A2B /* ACPCampaign.h */,
-			);
-			path = include;
 			sourceTree = "<group>";
 		};
 		58B511D21A9E6C8500147676 = {
@@ -87,9 +79,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTACPCampaign" */;
 			buildPhases = (
+				58B511D91A9E6C8500147676 /* CopyFiles */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
-				58B511D91A9E6C8500147676 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -241,6 +233,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RCTACPCampaign;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Debug;
 		};
@@ -260,6 +253,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RCTACPCampaign;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Release;
 		};
