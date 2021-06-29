@@ -34,17 +34,12 @@ npm install @adobe/react-native-acpcampaign
 ```
 
 #### 2.1 Link
-- **React Native 0.60+**
+This package requires React Native 0.60+ to build which supports [CLI autolink feature](https://github.com/react-native-community/cli/blob/master/docs/autolinking.md) to link the modules while building the app.
 
-
-[CLI autolink feature](https://github.com/react-native-community/cli/blob/master/docs/autolinking.md) links the module while building the app.
-
-
-- **React Native <= 0.59**
-
+*Note* For `iOS` using `cocoapods`, run:
 
 ```bash
-react-native link @adobe/react-native-acpcampaign
+cd ios/ && pod install
 ```
 
 *Note* For `iOS` using `cocoapods`, run:
@@ -76,7 +71,7 @@ ACPCampaign.extensionVersion().then(version => console.log("AdobeExperienceSDK: 
 
 ##### Registering the extension with ACPCore:
 
-> Note: It is recommended to initialize the SDK via native code inside your AppDelegate and MainApplication in iOS and Android respectively. However, you can still initialize the SDK in Javascript. For more information see how to initialize [Core](https://github.com/adobe/react-native-acpcore#initializing-the-sdk). 
+> Note: It is recommended to initialize the SDK via native code inside your AppDelegate and MainApplication in iOS and Android respectively.
 
 ##### **iOS**
 ```objective-c
