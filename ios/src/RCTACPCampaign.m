@@ -26,10 +26,6 @@ RCT_EXPORT_METHOD(extensionVersion: (RCTPromiseResolveBlock) resolve rejecter:(R
     resolve([ACPCampaign extensionVersion]);
 }
 
-RCT_EXPORT_METHOD(registerExtension) {
-    [ACPCampaign registerExtension];
-}
-
 RCT_EXPORT_METHOD(setLinkageFields: (nonnull NSDictionary*) linkageFields) {
     [ACPCampaign setLinkageFields:linkageFields];
 }

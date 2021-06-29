@@ -11,11 +11,7 @@ governing permissions and limitations under the License.
 */
 package com.adobe.marketing.mobile.reactnative.campaign;
 
-import android.util.Log;
-
 import com.adobe.marketing.mobile.Campaign;
-import com.adobe.marketing.mobile.InvalidInitException;
-import com.adobe.marketing.mobile.reactnative.campaign.RCTACPCampaignMapUtil;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -39,15 +35,6 @@ public class RCTACPCampaignModule extends ReactContextBaseJavaModule {
   @ReactMethod
   public void extensionVersion(final Promise promise) {
       promise.resolve(Campaign.extensionVersion());
-  }
-
-  @ReactMethod
-  public void registerExtension() {
-      try {
-          Campaign.registerExtension();
-      } catch (InvalidInitException e) {
-          Log.d(getName(), "Registering Campaign extension failed with error: " + e.getMessage());
-      }
   }
 
   @ReactMethod

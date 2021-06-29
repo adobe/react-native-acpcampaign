@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21B6293225902DD60039CE4D /* ACPCampaign.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B6293125902DD60039CE4D /* ACPCampaign.xcframework */; platformFilter = ios; };
-		21B6293525902DE30039CE4D /* ACPCampaign.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21B6293425902DDE0039CE4D /* ACPCampaign.h */; platformFilter = ios; };
+		673914E0245512AA09623E53 /* libPods-RCTACPCampaign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC59CA2B5AFB6D578C9F9B36 /* libPods-RCTACPCampaign.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RCTACPCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
@@ -19,7 +18,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				21B6293525902DE30039CE4D /* ACPCampaign.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -27,10 +25,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRCTACPCampaign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTACPCampaign.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21B6293125902DD60039CE4D /* ACPCampaign.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACPCampaign.xcframework; sourceTree = "<group>"; };
-		21B6293425902DDE0039CE4D /* ACPCampaign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ACPCampaign.h; path = "ACPCampaign.xcframework/ios-arm64_armv7_armv7s/Headers/ACPCampaign.h"; sourceTree = "<group>"; };
+		154BB8AB8F3B7169CB3F371D /* Pods-RCTACPCampaign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPCampaign.debug.xcconfig"; path = "Target Support Files/Pods-RCTACPCampaign/Pods-RCTACPCampaign.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RCTACPCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTACPCampaign.h; path = src/RCTACPCampaign.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTACPCampaign.m; path = src/RCTACPCampaign.m; sourceTree = "<group>"; };
+		CC59CA2B5AFB6D578C9F9B36 /* libPods-RCTACPCampaign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTACPCampaign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E874D0367908BA133A23C2D5 /* Pods-RCTACPCampaign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPCampaign.release.xcconfig"; path = "Target Support Files/Pods-RCTACPCampaign/Pods-RCTACPCampaign.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,13 +37,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B6293225902DD60039CE4D /* ACPCampaign.xcframework in Frameworks */,
+				673914E0245512AA09623E53 /* libPods-RCTACPCampaign.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0200242736E5375305946175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC59CA2B5AFB6D578C9F9B36 /* libPods-RCTACPCampaign.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -53,13 +60,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21093C55224D5D83008C3A2B /* libs */ = {
+		22BE1BE1C3330C85C0DE5BBF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21B6293425902DDE0039CE4D /* ACPCampaign.h */,
-				21B6293125902DD60039CE4D /* ACPCampaign.xcframework */,
+				154BB8AB8F3B7169CB3F371D /* Pods-RCTACPCampaign.debug.xcconfig */,
+				E874D0367908BA133A23C2D5 /* Pods-RCTACPCampaign.release.xcconfig */,
 			);
-			path = libs;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		58B511D21A9E6C8500147676 = {
@@ -67,8 +75,9 @@
 			children = (
 				B3E7B5881CC2AC0600A0062D /* RCTACPCampaign.h */,
 				B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */,
-				21093C55224D5D83008C3A2B /* libs */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				22BE1BE1C3330C85C0DE5BBF /* Pods */,
+				0200242736E5375305946175 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +88,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTACPCampaign" */;
 			buildPhases = (
+				1CC0F5DE2661E661993D3906 /* [CP] Check Pods Manifest.lock */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -123,6 +133,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CC0F5DE2661E661993D3906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCTACPCampaign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -219,6 +254,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154BB8AB8F3B7169CB3F371D /* Pods-RCTACPCampaign.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -239,6 +275,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E874D0367908BA133A23C2D5 /* Pods-RCTACPCampaign.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
