@@ -27,13 +27,6 @@ module.exports = {
   },
 
   /**
-   * Registers the ACPCampaign extension with ACPCore
-   */
-  registerExtension() {
-    RCTACPCampaign.registerExtension();
-  },
-
-  /**
    * @brief Sets the Campaign linkage fields (CRM IDs) in the mobile SDK to be used for downloading personalized messages from Campaign.
    *
    * The set linkage fields are stored as base64 encoded JSON string in memory and they are sent in a custom HTTP header 'X-InApp-Auth'
