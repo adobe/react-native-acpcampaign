@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AEPCampaign",
+        "repositoryURL": "https://github.com/adobe/aepsdk-campaign-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "9495f133280ce4aaa49f5047e3bad2859854e5d9",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "AEPCore",
+        "repositoryURL": "https://github.com/adobe/aepsdk-core-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "b13eba99e189db8450fa238b6ace4a39d1684b15",
+          "version": "3.2.2"
+        }
+      },
+      {
+        "package": "AEPRulesEngine",
+        "repositoryURL": "https://github.com/adobe/aepsdk-rulesengine-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "c3337be0f893db495aa497fef760e0518a1e5fe2",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
