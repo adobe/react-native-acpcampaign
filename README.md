@@ -6,7 +6,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/adobe/react-native-acpcampaign/main.svg?logo=circleci)](https://circleci.com/gh/adobe/workflows/react-native-acpcampaign) 
 [![license](https://img.shields.io/npm/l/@adobe/react-native-acpcampaign.svg)](https://github.com/adobe/react-native-acpcampaign/blob/main/LICENSE)
 
-`@adobe/react-native-acpcampaign` is a wrapper around the iOS and Android [AEP Campaign SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to allow for integration with React Native applications. Functionality to enable Campaign Standard is provided entirely through JavaScript documented below.
+`@adobe/react-native-acpcampaign` is a wrapper around the iOS and Android [AEP Campaign SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to allow for integration with React Native applications. Functionality to enable Adobe Campaign Standard is provided entirely through JavaScript documented below.
 
 
 ## Installation
@@ -71,7 +71,7 @@ ACPCampaign.extensionVersion().then(version => console.log("AdobeExperienceSDK: 
 
 ##### Registering the extension with ACPCore:
 
-> Note: It is recommended to initialize the SDK via native code inside your AppDelegate and MainApplication in iOS and Android respectively. For more information see how to initialize [Core](https://github.com/adobe/react-native-acpcore#initializing-the-sdk).
+> Note: It is recommended to initialize the SDK via native code inside your AppDelegate and MainApplication in iOS and Android respectively.
 
 ##### **iOS**
 ```objective-c
@@ -85,13 +85,6 @@ ACPCampaign.extensionVersion().then(version => console.log("AdobeExperienceSDK: 
 import com.adobe.marketing.mobile.Campaign;
 
 Campaign.registerExtension();
-```
-
-##### **Javascript:**
-```javascript
-import {ACPCampaign} from '@adobe/react-native-acpcampaign';
-
-ACPCampaign.registerExtension();
 ```
 
 ##### Set linkage fields:

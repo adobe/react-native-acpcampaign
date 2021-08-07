@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		673914E0245512AA09623E53 /* libPods-RCTACPCampaign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC59CA2B5AFB6D578C9F9B36 /* libPods-RCTACPCampaign.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RCTACPCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */; platformFilter = ios; };
+		F703E1BB7F8A8F15661BDB50 /* libPods-RCTACPCampaign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC9B173EEEDE81C288FA261 /* libPods-RCTACPCampaign.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,11 +25,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRCTACPCampaign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTACPCampaign.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		154BB8AB8F3B7169CB3F371D /* Pods-RCTACPCampaign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPCampaign.debug.xcconfig"; path = "Target Support Files/Pods-RCTACPCampaign/Pods-RCTACPCampaign.debug.xcconfig"; sourceTree = "<group>"; };
+		1476A2EB11783ED223268043 /* Pods-RCTACPCampaign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPCampaign.debug.xcconfig"; path = "Target Support Files/Pods-RCTACPCampaign/Pods-RCTACPCampaign.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9F232B3426E10A4DD2B9CA /* Pods-RCTACPCampaign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPCampaign.release.xcconfig"; path = "Target Support Files/Pods-RCTACPCampaign/Pods-RCTACPCampaign.release.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RCTACPCampaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTACPCampaign.h; path = src/RCTACPCampaign.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTACPCampaign.m; path = src/RCTACPCampaign.m; sourceTree = "<group>"; };
-		CC59CA2B5AFB6D578C9F9B36 /* libPods-RCTACPCampaign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTACPCampaign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E874D0367908BA133A23C2D5 /* Pods-RCTACPCampaign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPCampaign.release.xcconfig"; path = "Target Support Files/Pods-RCTACPCampaign/Pods-RCTACPCampaign.release.xcconfig"; sourceTree = "<group>"; };
+		DFC9B173EEEDE81C288FA261 /* libPods-RCTACPCampaign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTACPCampaign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,21 +37,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				673914E0245512AA09623E53 /* libPods-RCTACPCampaign.a in Frameworks */,
+				F703E1BB7F8A8F15661BDB50 /* libPods-RCTACPCampaign.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0200242736E5375305946175 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CC59CA2B5AFB6D578C9F9B36 /* libPods-RCTACPCampaign.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +52,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22BE1BE1C3330C85C0DE5BBF /* Pods */ = {
+		4EEAB315D79957369FDCD277 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				154BB8AB8F3B7169CB3F371D /* Pods-RCTACPCampaign.debug.xcconfig */,
-				E874D0367908BA133A23C2D5 /* Pods-RCTACPCampaign.release.xcconfig */,
+				DFC9B173EEEDE81C288FA261 /* libPods-RCTACPCampaign.a */,
 			);
-			name = Pods;
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		58B511D21A9E6C8500147676 = {
@@ -76,9 +66,19 @@
 				B3E7B5881CC2AC0600A0062D /* RCTACPCampaign.h */,
 				B3E7B5891CC2AC0600A0062D /* RCTACPCampaign.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				22BE1BE1C3330C85C0DE5BBF /* Pods */,
-				0200242736E5375305946175 /* Frameworks */,
+				92D29BDF62B435D8AA2D792B /* Pods */,
+				4EEAB315D79957369FDCD277 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		92D29BDF62B435D8AA2D792B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1476A2EB11783ED223268043 /* Pods-RCTACPCampaign.debug.xcconfig */,
+				3C9F232B3426E10A4DD2B9CA /* Pods-RCTACPCampaign.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,7 +88,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTACPCampaign" */;
 			buildPhases = (
-				1CC0F5DE2661E661993D3906 /* [CP] Check Pods Manifest.lock */,
+				0586962AEAE669DE5BC16D9B /* [CP] Check Pods Manifest.lock */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -135,7 +135,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1CC0F5DE2661E661993D3906 /* [CP] Check Pods Manifest.lock */ = {
+		0586962AEAE669DE5BC16D9B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,7 +254,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 154BB8AB8F3B7169CB3F371D /* Pods-RCTACPCampaign.debug.xcconfig */;
+			baseConfigurationReference = 1476A2EB11783ED223268043 /* Pods-RCTACPCampaign.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -275,7 +275,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E874D0367908BA133A23C2D5 /* Pods-RCTACPCampaign.release.xcconfig */;
+			baseConfigurationReference = 3C9F232B3426E10A4DD2B9CA /* Pods-RCTACPCampaign.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
