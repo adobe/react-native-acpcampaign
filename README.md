@@ -56,7 +56,7 @@ make run-tests-locally
 
 ## Usage
 
-### [Campaign](https://developer.adobe.com/client-sdks/previous-versions/documentation/adobe-campaign-standard/)
+### Campaign
 
 ##### Importing the extension:
 ```javascript
