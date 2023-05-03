@@ -6,7 +6,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/adobe/react-native-acpcampaign/main.svg?logo=circleci)](https://circleci.com/gh/adobe/workflows/react-native-acpcampaign) 
 [![license](https://img.shields.io/npm/l/@adobe/react-native-acpcampaign.svg)](https://github.com/adobe/react-native-acpcampaign/blob/main/LICENSE)
 
-`@adobe/react-native-acpcampaign` is a wrapper around the iOS and Android [AEP Campaign SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to allow for integration with React Native applications. Functionality to enable Adobe Campaign Standard is provided entirely through JavaScript documented below.
+`@adobe/react-native-acpcampaign` is a wrapper around the iOS and Android [AEP Campaign SDK](https://developer.adobe.com/client-sdks/previous-versions/documentation/adobe-campaign-standard/) to allow for integration with React Native applications. Functionality to enable Adobe Campaign Standard is provided entirely through JavaScript documented below.
 
 
 ## Installation
@@ -56,7 +56,7 @@ make run-tests-locally
 
 ## Usage
 
-### [Campaign](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)
+### Campaign
 
 ##### Importing the extension:
 ```javascript
